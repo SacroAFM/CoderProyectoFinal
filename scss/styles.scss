@@ -1,0 +1,80 @@
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------- variables
+$color: white;
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------- imports
+@import "espacio";
+@import "promos";
+@import "footer";
+@import "ofertas";
+@import "informacion";
+@import "vuelos";
+@import "formulario";
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------- Inicio de la web
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------- nav principal
+nav{
+    .nav-link:hover{
+        text-decoration: underline;
+    }
+    .caja-titulo{
+        .caja-lista{
+            .lista{
+                font-family: 'Monomaniac One', sans-serif;
+            }
+        }
+        .titulo{
+            display: flex;
+            align-items: center;
+            height: 75px;
+            width: 100px;
+            h1{
+                font-family: 'Monomaniac One', sans-serif;
+                span{
+                    color: blue;
+                }
+            }
+        }
+    }
+}
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------- video de fondo
+.container-{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+        .video-container-{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -3;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+            video{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            object-fit: cover;
+            width: 100%;
+            height: 100vh;
+            transform: translate(-50%,-50%);
+        }
+    }
+}
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------- cartas del personal
+.cartas{
+    margin: 20px;
+}
+
+
+
+
+
+
+

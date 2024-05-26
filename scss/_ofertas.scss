@@ -1,0 +1,34 @@
+$letras: rgb(255, 255, 255);
+$botones: (
+    colores: rgb(2, 2, 54),
+    boton2: rgb(63, 2, 87),
+);
+
+.carta-promos {
+    margin: 10px;
+    @media only screen and (min-width: 600px){
+        display: flex;
+        justify-content: center;
+    }
+    .carta-principal{
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        .compras{
+            padding: 0px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .boton-info{
+                color: $letras;
+                background-color: map-get($botones, colores);
+                margin: 5px;
+            }
+            .rere{
+                color: $letras;
+                background-color: map-get($botones, boton2)
+            }
+    }
+}
+}

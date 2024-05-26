@@ -1,0 +1,19 @@
+$fondo: #212529;
+
+.contenedor-hotsale{
+    background-color: $fondo;
+    @media only screen and (min-width: 600px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hotsale-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin: 8px;
+            border: 2px solid white;
+        }
+    }
+}

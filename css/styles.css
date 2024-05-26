@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
+.espacio-chico {
+  height: 30px;
+  width: 100%;
+}
+
+.espacio-negro {
+  height: 20px;
+  width: 100%;
+  background-color: #212529;
+}
+
+.espacio-mediano {
+  height: 50px;
+  width: 100%;
+}
+
+.contenedor-hotsale {
+  background-color: #212529;
+}
+@media only screen and (min-width: 600px) {
+  .contenedor-hotsale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.contenedor-hotsale .hotsale-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-hotsale .hotsale-img img {
+  margin: 8px;
+  border: 2px solid white;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 0 9%;
+  background: #212529;
+}
+.icons a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+.icons a i {
+  margin: 5px;
+  font-size: 24px;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.carta-promos {
+  margin: 10px;
+}
+@media only screen and (min-width: 600px) {
+  .carta-promos {
+    display: flex;
+    justify-content: center;
+  }
+}
+.carta-promos .carta-principal {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.carta-promos .carta-principal .compras {
+  padding: 0px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carta-promos .carta-principal .compras .boton-info {
+  color: rgb(255, 255, 255);
+  background-color: rgb(2, 2, 54);
+  margin: 5px;
+}
+.carta-promos .carta-principal .compras .rere {
+  color: rgb(255, 255, 255);
+  background-color: rgb(63, 2, 87);
+}
+
+.carta-nosotros .carta-nosotros-body {
+  background-color: #212529;
+}
+.carta-nosotros .carta-nosotros-body h5 {
+  color: white;
+}
+.carta-nosotros .carta-nosotros-body p {
+  color: white;
+}
+.carta-nosotros .carta-nosotros-body a {
+  color: white;
+}
+.carta-nosotros .carta-nosotros-body .gracias {
+  background-color: #212529;
+  color: white;
+}
+
+.caja-info {
+  background-color: #212529;
+}
+.caja-info .ccarta {
+  margin: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.contenedor-vuelos {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #337ab7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carta-cargando {
+  background-color: #212529;
+  border-radius: 80px;
+}
+.carta-cargando .cajara {
+  height: 70px;
+  width: 100%;
+}
+.carta-cargando h5 {
+  margin: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.form-register {
+  width: 400px;
+  background: #010058;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.form-register .controls {
+  width: 100%;
+  background: #0d0b86;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.form-register a {
+  color: rgb(253, 0, 0);
+  text-decoration: none;
+}
+.form-register a :hover {
+  color: white;
+  text-decoration: underline;
+}
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav .nav-link:hover {
+  text-decoration: underline;
+}
+nav .caja-titulo .caja-lista .lista {
+  font-family: "Monomaniac One", sans-serif;
+}
+nav .caja-titulo .titulo {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  width: 100px;
+}
+nav .caja-titulo .titulo h1 {
+  font-family: "Monomaniac One", sans-serif;
+}
+nav .caja-titulo .titulo h1 span {
+  color: blue;
+}
+
+.container- {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.container- .video-container- {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.container- .video-container- video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+}
+
+.cartas {
+  margin: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
