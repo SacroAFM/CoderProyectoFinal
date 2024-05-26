@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ------------------------------------------------------------------ metas -->
+        <meta name="description" content="PlayaNode los mejores vuelos del mundo buscalos aca y al mejor precio">
+        <meta name="keywords"  content="VUELOS, EUROPA, VIAJE, AVENTURA, VOLAR ">
+        <!-- ---------------------------------------------------------------------- Styles css -->
+        <link rel="stylesheet" href="../css/styles.css">
+    <!-- -----------------------------------------------------------------------bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- ---------------------------------------------------------------------- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- ---------------------------------------------------------------------- remixicon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ---------------------------------------------------------------------- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Itim&family=Patrick+Hand&family=Poppins:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- ---------------------------------------------------------------------- logo attom -->
+    <link rel="shortcut icon" href="./img/logo-principal.png" type="image/x-icon">
+    <!-- ---------------------------------------------------------------------- SEO web -->
+    <meta name="" content="">
+    <!-- --------------------------------------------------------------------- title -->
+    <title>PlayaNode | Vuelos</title>
+</head>
+<body>
+<!-- -------------------------------------------------------------------------------------------------------------- header -->
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid caja-titulo">
+                    <a class="navbar-brand titulo" href="../index.html"><h1><span>Playa</span>Node</h1></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse caja-lista" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 lista">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./informacion.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./vuelos.html">Vuelos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-----------------------------------------------------------------------------------------------------  video de inicio -->
+    <section class="container-">
+        <div class="video-container-">
+            <video src="../img/video-fondo1.mp4" autoplay muted loop></video>
+        </div>
+    </section>
+
+    <div class="espacio-chico"></div>
+
+
+    <main class="container">
+        <div class="contenedor-vuelos">
+            <h2>Búsqueda de vuelos</h2>
+            <form>
+            <div class="form-group">
+                <label for="origin">Origen:</label>
+                <input type="text" id="origin" name="origin" placeholder="Ingrese el origen" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="destination">Destino:</label>
+                <input type="text" id="destination" name="destination" placeholder="Ingrese el destino" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="departure">Fecha de salida:</label>
+                <input type="date" id="departure" name="departure" placeholder="Seleccione la fecha de salida" required>
+            </div>
+
+            <div class="form-group">
+                <label for="departure">Fecha de vuelta:</label>
+                <input type="date" id="departure" name="departure" placeholder="Seleccione la fecha de vuelta" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="passengers">Pasajeros:</label>
+                <select id="passengers" name="passengers" required>
+                <option value="1">1 pasajero</option>
+                <option value="2">2 pasajeros</option>
+                <option value="3">3 pasajeros</option>
+                <option value="4">4 pasajeros</option>
+                </select>
+            </div>
+            
+            <input type="submit" value="Buscar vuelos">
+            </form>
+        </div>
+    </main>
+
+    <div class="espacio-mediano"></div>
+
+    <section class="container carta-cargando">
+        <section class="container d-flex justify-content-center cajara">
+            <h5>Cargando los mejores vuelos</h5>
+        </section>
+        <div class="espacio-chico"></div>
+        <section class="container d-flex justify-content-center cajara">
+            <div class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </section>
+    </section>
+
+
+
+    <div class="espacio-mediano"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ footer de iconos -->
+<footer class="icons">
+    <a href="#"><i class="ri-instagram-line"></i>PlayaNode</a>
+    <a href="#"><i class="ri-whatsapp-line"></i>+54 6699-4232</a>
+    <a href=""><i class="ri-facebook-circle-line"></i>PlayaNode</a>
+</footer>
+
+
+
+</body>
+</html>
